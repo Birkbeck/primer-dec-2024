@@ -2,4 +2,604 @@
 #stacks_out_4_2 {
 	width: 1280px;
 }
+/*
+ * cleanAccordion
+ * AUTHOR: JEREMY HAWES
+ * URL: http://www.onelittledesigner.com/rapdidweaver-stack/cleanAccordion/
+ * Support: http://forum.onelittledesigner.com
+ * Version 3.6.1
+ */
+
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+#accordion_stacks_in_18 li {
+  margin-left: 30px;
+  list-style-type: inherit;
+}
+/* =====================
+ * GLOBAL STYLES
+/* ===================== */
+#accordion_stacks_in_18.transparentOn .accordion,
+#accordion_stacks_in_18.transparentOn .accordionTheme,
+#accordion_stacks_in_18.transparentOn .accordionTheme2,
+#accordion_stacks_in_18.transparentOn .accordionTheme dt,
+#accordion_stacks_in_18.transparentOn .accordionTheme2 dt,
+#accordion_stacks_in_18.transparentOn .accordionTheme dd,
+#accordion_stacks_in_18.transparentOn .accordionTheme2 dd {
+  background-color: transparent !important;
+  background-color: none !important;
+  border: none !important;
+  border-left: none !important;
+  border-top: none !important;
+  border-bottom: none !important;
+  border-right: none !important;
+}
+#accordion_stacks_in_18,
+#accordion_stacks_in_18 > * {
+  margin: 0;
+  padding: 0;
+}
+
+  #accordion_stacks_in_18.fixedHeightOn {
+    height: 500px;
+  }
+
+#accordion_stacks_in_18 .accordion dt,
+#accordion_stacks_in_18 .accordion dd {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+} /* SET TO ZERO */
+
+#accordion_stacks_in_18 .accordion dt .accordionContent {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+#accordion_stacks_in_18 .accordion dd {
+  margin-left: 0 !important;
+}
+#accordion_stacks_in_18 .accordion a:focus {
+  outline: none;
+} /* FOCUS NO OUTLINE FORCE */
+#accordion_stacks_in_18 .accordion {
+  overflow: hidden;
+}
+#accordion_stacks_in_18 .accordion:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+} /* Clearfix */
+#accordion_stacks_in_18 .accordion dd {
+  padding: 10px;
+  text-indent: none;
+}
+#accordion_stacks_in_18 .accordion dt {
+  background-color: transparent;
+}
+
+#accordion_stacks_in_18 .accordion dt a.accordionSlide {
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+}
+#accordion_stacks_in_18 .accordion.tabShadowOn dt a {
+  text-shadow: 0 1px 1px #CCCCCC;
+}
+
+#accordion_stacks_in_18 .accordion.tabShadowOff dt a {
+  text-shadow: none;
+}
+#accordion_stacks_in_18 .accordionTheme dt a,
+#accordion_stacks_in_18 .accordionTheme.accGradientOff dt a {
+  border-radius: 4px;
+  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme dt a,
+#accordion_stacks_in_18.transparentOff .accordionTheme.accGradientOff dt a {
+  background-color: #666666;
+}
+#accordion_stacks_in_18.trasnparentOff .accordionTheme dt.selected a {
+  background-color: #666666;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme.accGradientOn dt a {
+  background: #EEEEEE; /* Old browsers */
+  background-image: linear-gradient(bottom, #666666 30%, #EEEEEE 55%);
+  background-image: -o-linear-gradient(bottom, #666666 30%, #EEEEEE 55%);
+  background-image: -moz-linear-gradient(bottom, #666666 30%, #EEEEEE 55%);
+  background-image: -webkit-linear-gradient(bottom, #666666 30%, #EEEEEE 55%);
+  background-image: -ms-linear-gradient(bottom, #666666 30%, #EEEEEE 55%);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.30, #666666),
+    color-stop(0.55, #EEEEEE)
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#666666',GradientType=0 ); /* IE6-9 */
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme.accGradientOn dt.selected a {
+  background: #EEEEEE !important; /* Old browsers */
+  background-image: linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -o-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -moz-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -webkit-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -ms-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.30, #666666),
+    color-stop(0.55, #EEEEEE)
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#666666',GradientType=0 ); /* IE6-9 */
+}
+
+#accordion_stacks_in_18 .accordion dt.selected a {
+  color: #007FFF !important;
+}
+
+#accordion_stacks_in_18 .accordion dd {
+  background-color: transparent;
+  color: #333333 !important;
+}
+
+#accordion_stacks_in_18.fixedHeightOn .accordion dd {
+  height: 400px;
+  max-height: 400px;
+  overflow: auto;
+}
+
+#accordion_stacks_in_18 .accordion .accordionLastDd {
+  position: relative;
+  border-bottom: 0;
+}
+/* =====================
+ * DEFAULT THEME (1)
+/* ===================== */
+#accordion_stacks_in_18 .accordionTheme dt {
+  border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-style: solid;
+  border-color: #666666;
+  border-width: 1px;
+  overflow: hidden;
+  margin-bottom: 0px;
+  position: relative;
+}
+#accordion_stacks_in_18 .accordionTheme dt.selected {
+  border-color: #666666;
+}
+#accordion_stacks_in_18 .accordionTheme dt.accordionLastDt {
+  margin-bottom: none;
+}
+#accordion_stacks_in_18 .accordionTheme2 dt.selected.accordionLastDt {
+  border-radius: 0 !important;
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  -ms-border-radius: 0 !important;
+  -o-border-radius: 0 !important;
+}
+#accordion_stacks_in_18 .accordionTheme.backgroundOn dd,
+#accordion_stacks_in_18 .accordionTheme3.backgroundOn dd,
+#accordion_stacks_in_18 .accordionTheme5.backgroundOn dd {
+  background-color: #FFFFFF;
+}
+#accordion_stacks_in_18 .accordionTheme.backgroundOff dd,
+#accordion_stacks_in_18 .accordionTheme2.backgroundOff dd,
+#accordion_stacks_in_18 .accordionTheme4.backgroundOff dd {
+  background-color: transparent !important;
+}
+#accordion_stacks_in_18 .accordionTheme.backgroundOn dd {
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+#accordion_stacks_in_18 dt.accordionIconOff span.customIcon {
+  display: none;
+}
+#accordion_stacks_in_18 dt.accordionIconOn .accordionContent {
+  display: inline-block;
+}
+#accordion_stacks_in_18 dt.accordionIconOn span.customIcon {
+  display: inline;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 16px;
+  padding: none;
+  padding-left: none;
+  color: #000000;
+  font-family: 'FontAwesome' !important;
+}
+#accordion_stacks_in_18 dt.accordionIconOn.iconAlignLeft span.fa {
+  float: left;
+}
+#accordion_stacks_in_18 dt.accordionIconOn.iconAlignRight span.fa {
+  float: right;
+}
+#accordion_stacks_in_18 dt.accordionIconOn.textAlignLeft .accordionContent {
+  float: left;
+  padding-left: 30px;
+}
+#accordion_stacks_in_18 dt.accordionIconOn.textAlignRight .accordionContent {
+  float: right;
+  padding-right: 30px;
+}
+#accordion_stacks_in_18 dt.accordionIconOn.animateOn span.customIcon {
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+#accordion_stacks_in_18 dt.accordionIconOn a.selected span.customIcon {
+  color: #007FFF;
+}
+#accordion_stacks_in_18 dt.accordionIconOn.animateOn a.selected span.customIcon {
+  -webkit-transform:rotate(315deg);
+  -moz-transform:rotate(315deg);
+  -ms-transform:rotate(315deg);
+  -o-transform:rotate(315deg);
+  transition: all 500ms ease-in-out;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+/* =====================
+ * Theme 2
+/* ===================== */
+#accordion_stacks_in_18 .accordionTheme2 dt {
+  background-color: #FFFFFF;
+}
+#accordion_stacks_in_18.borderMinimalOff .accordionTheme2 {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #666666;
+}
+#accordion_stacks_in_18 .accordionTheme2 dd {
+  background-color: #FFFFFF;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-color: #333333;
+}
+#accordion_stacks_in_18.borderMinimalOn .accordionTheme2 dd {
+  border-bottom-width: 0 !important;
+  border-bottom: 0 !important;
+  border: none !important;
+}
+#accordion_stacks_in_18 .accordionTheme2 .accordionLastDt {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -khtml-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -khtml-border-radius-bottomleft: 5px;
+  border: none;
+  border-radius: none;
+}
+#accordion_stacks_in_18 .accordionTheme2 .accordionLastDd {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -khtml-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -khtml-border-radius-bottomleft: 5px;
+  border-top: solid 1px #333333;
+}
+#accordion_stacks_in_18 .accordionTheme2 .accordionFirstDt {
+  border-top: none;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -khtml-border-radius-topright: 5px;
+  -moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -khtml-border-radius-topleft: 5px;
+}
+#accordion_stacks_in_18 .accordionTheme2 dt {
+  border-bottom: solid 1px #333333;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme2 dt {
+  background-color: #FFFFFF;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme2 dt.selected {
+  background-color: #F0F0F0;
+}
+/* =====================
+ * Theme 3
+/* ===================== */
+#accordion_stacks_in_18 .accordionTheme3 dt {
+  background-color: none;
+  background: transparent;
+}
+#accordion_stacks_in_18 .accordionTheme3 dt .accordionSlide {
+  padding: 0 !important;
+  margin-bottom: 0px;
+  width: 100%;
+}
+
+  #accordion_stacks_in_18 .accordionTheme3 dt .accordionContent {
+    white-space: nowrap;
+    box-sizing: border-box;
+    display: block;
+    float: none !important;
+  }
+  #accordion_stacks_in_18 .accordionTheme3 dt.iconAlignLeft .accordionContent {
+    margin-left: 66px;
+  }
+  #accordion_stacks_in_18 .accordionTheme3 dt.iconAlignRight .accordionContent {
+    margin-right: 66px;
+  }
+
+#accordion_stacks_in_18 .accordionTheme3 dt .iconWrap,
+#accordion_stacks_in_18 .accordionTheme3 dt .accordionContent {
+  padding: 10px;
+  border-style: solid;
+  border-color: #666666;
+  border-width: 1px;
+  border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+}
+}
+#accordion_stacks_in_18 .accordionTheme3.connectOn dt .iconWrap {
+  border-right-width: 0;
+  border-right: none;
+}
+#accordion_stacks_in_18 .accordionTheme3.connectOn dt.iconAlignLeft .accordionContent {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#accordion_stacks_in_18 .accordionTheme3.connectOn dt.iconAlignLeft .iconWrap {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+
+}
+#accordion_stacks_in_18 .accordionTheme3.connectOn dt.iconAlignRight .accordionContent {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#accordion_stacks_in_18 .accordionTheme3.connectOn dt.iconAlignRight .iconWrap {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#accordion_stacks_in_18 .accordionTheme3 dt.selected .iconWrap,
+#accordion_stacks_in_18 .accordionTheme3 dt.selected .accordionContent {
+  border-color: #666666;
+}
+#accordion_stacks_in_18 .accordionTheme3 dt .iconWrap {
+  display: inline-block;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme3 dt .iconWrap {
+  background-color: #EEEEEE;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme3 dt.selected .iconWrap {
+  background-color: #E0E0E0;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme3 dt .accordionContent {
+  background-color: #FFFFFF;
+  padding-left: none;
+}
+#accordion_stacks_in_18.transparentOff .accordionTheme3 dt.selected .accordionContent {
+  background-color: #F0F0F0;
+}
+#accordion_stacks_in_18 .accordionTheme3 dt.iconAlignLeft .accordionContent,
+#accordion_stacks_in_18 .accordionTheme3 dt.iconAlignRight .accordionContent {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#accordion_stacks_in_18 .accordionTheme3 dt.accordionIconOn.iconAlignLeft .iconWrap {
+  float: left;
+}
+#accordion_stacks_in_18 .accordionTheme3 dt.accordionIconOn.iconAlignRight .iconWrap {
+  float: right;
+}
+/* =====================
+ * BACKEND
+/* ===================== */
+
+
+
+
+
+
+
+
+#accordion_stacks_in_18.nonTouch.transparentOff .accordionTheme.accGradientOn dt a:hover {
+  background: #EEEEEE !important;
+  background-image: linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -o-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -moz-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -webkit-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -ms-linear-gradient(bottom, #666666 30%, #EEEEEE 55%) !important;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.30, #666666),
+    color-stop(0.55, #EEEEEE)
+  ) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#666666',GradientType=0 );
+}
+#accordion_stacks_in_18.nonTouch.transparentOff .accordionTheme dt a:hover {
+  background-color: #666666;
+}
+
+#accordion_stacks_in_18.nonTouch .accordion dt a:hover {
+  color: #007FFF !important;
+}
+
+#accordion_stacks_in_18.nonTouch .accordionTheme dt:hover {
+  border-color: #666666;
+}
+#accordion_stacks_in_18.nonTouch dt.accordionIconOn a.accordionSlide:hover span.customIcon {
+  color: #007FFF;
+}
+#accordion_stacks_in_18.nonTouch.transparentOff .accordionTheme2 dt:hover {
+  background-color: #F0F0F0;
+}
+#accordion_stacks_in_18.nonTouch .accordionTheme3 dt:hover .iconWrap,
+#accordion_stacks_in_18.nonTouch .accordionTheme3 dt:hover .accordionContent {
+  border-color: #666666;
+}
+#accordion_stacks_in_18.nonTouch.transparentOff .accordionTheme3 dt:hover .iconWrap{
+  background-color: #E0E0E0;
+}
+#accordion_stacks_in_18.nonTouch.transparentOff .accordionTheme3 dt:hover .accordionContent {
+  background-color: #F0F0F0;
+}
+
+/* =====================
+* New Themes
+/* ===================== */
+#accordion_stacks_in_18 .accordionTheme4 {
+  background: #666666;
+  -webkit-perspective: 1000px;
+  -moz-perspective: 1000px;
+  -ms-perspective: 1000px;
+  -o-perspective: 1000px;
+  perspective: 1000px;
+  box-sizing: border-box;
+}
+#accordion_stacks_in_18 .accordionTheme4 dt {
+  background: #666666;
+  box-sizing: border-box;
+  z-index: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.3) rgba(0,0,0,0.15) rgba(0,0,0,0.3) rgba(0,0,0,0.15);
+  -webkit-transform: translateY(0%) rotateY(0deg) translateZ(0px);
+  -moz-transform: translateY(0%) rotateY(0deg) translateZ(0px);
+  -ms-transform: translateY(0%) rotateY(0deg) translateZ(0px);
+  -o-transform:translateY(0%) rotateY(0deg) translateZ(0px);
+  transform: translateY(0%) rotateY(0deg) translateZ(0px);
+}
+#accordion_stacks_in_18 .accordionTheme4 dt.selected {
+  background: #666666;
+}
+#accordion_stacks_in_18 .accordionTheme4 dd {
+  background: #FFFFFF;
+  box-sizing: border-box;
+  z-index: -1;
+  
+  -webkit-transform: translateY(0%) rotateY(90deg) translateZ(-1000px);
+  -moz-transform: translateY(0%) rotateY(90deg) translateZ(-1000px);
+  -ms-transform: translateY(0%) rotateY(90deg) translateZ(-1000px);
+  -o-transform:translateY(0%) rotateY(90deg) translateZ(-1000px);
+  transform: translateY(0%) rotateY(90deg) translateZ(-1000px);
+  
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transition: transform 500ms;
+  -moz-transition: transform 500ms;
+  -o-transition: transform 500ms;
+  transition: transform 500ms;
+}
+#accordion_stacks_in_18 .accordionTheme4 dd.accordionOpen {
+  -webkit-transform: translateY(0%) rotateY(0deg) translateZ(0px);
+  -moz-transform: translateY(0%) rotateY(0deg) translateZ(0px);
+  -ms-transform: translateY(0%) rotateY(0deg) translateZ(0px);
+  -o-transform:translateY(0%) rotateY(0deg) translateZ(0px);
+  transform: translateY(0%) rotateY(0deg) translateZ(0px);
+}
+
+#accordion_stacks_in_18 .accordionTheme5 {
+  background: #666666;
+  border-radius: 4px;
+  border-width: 1px 1px 5px 1px;
+  border-style: solid;
+  border-color: rgba(255,255,255,0.3) rgba(0,0,0,0.3) rgba(0,0,0,0.4) rgba(0,0,0,0.1);
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+  margin-bottom: 10px;
+  padding: 10px 10px;
+}
+#accordion_stacks_in_18 .accordionTheme5 dt {
+
+}
+#accordion_stacks_in_18 .accordionTheme5 dd {
+  box-sizing: border-box;
+  background: rgba(0,0,0,0.1);
+  margin: 0px 20px 0px !important;
+  border-width: 5px 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(0,0,0,0.4) rgba(0,0,0,0.3) rgba(255,255,255,0.3) rgba(0,0,0,0.3);
+  border-radius: 4px;
+  box-shadow: inset 0px 2px 5px rgba(0,0,0,0.3);
+}
+#accordion_stacks_in_18 .accordionTheme6 dt a.accordionSlide {
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+}
+#accordion_stacks_in_18 .accordionTheme6 dd {
+  padding: 0;
+}
+
+/*
+ * cleanAccordion: Inner element styles
+ */
+
+dt.tab_stacks_in_19.accordionIconOn.iconAlignLeft span.fa {
+  float: left;
+}
+dt.tab_stacks_in_19.accordionIconOn.iconAlignRight span.fa {
+  float: right;
+}
+dt.tab_stacks_in_19.accordionIconOn.textAlignLeft .accordionContent {
+  float: left;
+}
+dt.tab_stacks_in_19.accordionIconOn.textAlignRight .accordionContent {
+  float: right;
+}
+
+/*
+ * cleanAccordion: Inner element styles
+ */
+
+dt.tab_stacks_in_27.accordionIconOn.iconAlignLeft span.fa {
+  float: left;
+}
+dt.tab_stacks_in_27.accordionIconOn.iconAlignRight span.fa {
+  float: right;
+}
+dt.tab_stacks_in_27.accordionIconOn.textAlignLeft .accordionContent {
+  float: left;
+}
+dt.tab_stacks_in_27.accordionIconOn.textAlignRight .accordionContent {
+  float: right;
+}
+
 /* Start Responsive Shim stack CSS code */.stacks_in_17shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
