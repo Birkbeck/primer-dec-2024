@@ -1,7 +1,0 @@
-table{border-collapse:collapse;width:100%;margin-bottom:1rem;border-radius:0}tbody,tfoot,thead{border:1px solid #f1f1f1;background-color:#fefefe}caption{padding:.5rem .625rem .625rem;font-weight:700}thead{background:#f8f8f8;color:#0a0a0a}tfoot{background:#f1f1f1;color:#0a0a0a}tfoot tr,thead tr{background:0 0}tfoot td,tfoot th,thead td,thead th{padding:.5rem .625rem .625rem;font-weight:700;text-align:left}tbody td,tbody th{padding:.5rem .625rem .625rem}tbody tr:nth-child(even){border-bottom:0;background-color:#f1f1f1}table.unstriped tbody{background-color:#fefefe}table.unstriped tbody tr{border-bottom:1px solid #f1f1f1;background-color:#fefefe}@media print,screen and (max-width:63.99875em){table.stack thead{display:none}table.stack tfoot{display:none}table.stack td,table.stack th,table.stack tr{display:block}table.stack td{border-top:0}}table.scroll{display:block;width:100%;overflow-x:auto}table.hover thead tr:hover{background-color:#f3f3f3}table.hover tfoot tr:hover{background-color:#ececec}table.hover tbody tr:hover{background-color:#f9f9f9}table.hover:not(.unstriped) tr:nth-of-type(even):hover{background-color:#ececec}.table-scroll{overflow-x:auto}
-
-#stacks_out_2_2 {
-	width: 1280px;
-}
-
-/* Start Responsive Shim stack CSS code */.stacks_in_11shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Start Responsive Shim stack CSS code */.stacks_in_6shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
