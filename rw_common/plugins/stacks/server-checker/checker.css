@@ -1,0 +1,32 @@
+.server-checker-warning {
+    position                : fixed;
+    bottom                  : 0;
+    left                    : 0;
+    z-index                 : 9999;
+    background-color        : hsl(350, 100%, 92%);
+    color                   : hsl(0, 100%, 25%);
+    padding                 : 32px;
+    width                   : 50%;
+    box-shadow              : 0 0 30px -5px rgba(0,0,0,0.2);
+    border-top-right-radius : 3px;
+}
+.server-checker-warning * {
+    color : hsl(0, 100%, 25%);
+}
+.server-checker-warning a {
+    text-decoration : underline;
+}
+.server-checker-warning.hide {
+    display : none;
+}
+.server-checker-warning li.ext {
+    display : none;
+}
+.server-checker-close {
+    position    : absolute;
+    top         : 0px;
+    right       : 10px;
+    font-size   : 32px;
+    cursor      : pointer;
+    line-height : 1;
+}

@@ -1,0 +1,31 @@
+
+This is the JS that you will add to a stack if you want to require
+a specific PHP version number. The highest version wins.
+This should be added as a *pageBodyAbove* scoped HTML template.
+
+Supported Extensions:
+
+* gd
+* imagick
+* gmagick
+* vips
+* curl
+* intl
+* iconv
+* mbstring
+* memcached
+* apc
+* exif
+
+<!-- %%[[if preview]]%% -->
+<script>
+if ("undefined" == typeof window.phprequire) window.phprequire = [];
+window.phprequire.push("7.4.0");
+
+if ("undefined" == typeof window.phpmodules) window.phpmodules = [];
+window.phpmodules.push("mbstring");
+
+if ("undefined" == typeof window.phpstacks) window.phpstacks = [];
+window.phpstacks.push("Agent");
+</script>
+<!-- %%[[endif]]%% -->
