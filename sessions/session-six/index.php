@@ -15,30 +15,30 @@ session_start();
 	<meta name="twitter:site" content="@Birkbeck_CS">
 	<meta name="twitter:creator" content="@Birkbeck_CS">
 	<meta name="twitter:title" content="Session Six">
-	<meta name="twitter:image" content="https://birkbeck.github.io/primer-dec-2024/resources/Programming.png">
+	<meta name="twitter:image" content="https://birkbeck.github.io/primer-dec-2024/resources/primer-ds-logo.png">
 	<meta name="twitter:url" content="https://birkbeck.github.io/primer-dec-2024/sessions/session-six/index.php">
 	<meta property="og:type" content="website">
 	<meta property="og:site_name" content="CMS Primer — Birkbeck, University of London">
 	<meta property="og:title" content="Session Six">
-	<meta property="og:image" content="https://birkbeck.github.io/primer-dec-2024/resources/Programming.png">
+	<meta property="og:image" content="https://birkbeck.github.io/primer-dec-2024/resources/primer-ds-logo.png">
 	<meta property="og:url" content="https://birkbeck.github.io/primer-dec-2024/sessions/session-six/index.php">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="baseurl" content="https://birkbeck.github.io/primer-dec-2024/">
 	<title>Session Six</title>
-	<link rel="stylesheet" type="text/css" media="all" href="../../rw_common/themes/aspen/consolidated.css?rwcache=753559612" />
+	<link rel="stylesheet" type="text/css" media="all" href="../../rw_common/themes/aspen/consolidated.css?rwcache=753644042" />
 		
 	
 	
 	
-			<link rel='stylesheet' type='text/css' media='all' href='../../rw_common/plugins/stacks/stacks.css?rwcache=753559612' />
-		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page12.css?rwcache=753559612' />
-        <script type='text/javascript' charset='utf-8' src='../../rw_common/plugins/stacks/jquery-2.2.4.min.js?rwcache=753559612'></script>
+			<link rel='stylesheet' type='text/css' media='all' href='../../rw_common/plugins/stacks/stacks.css?rwcache=753644042' />
+		<link rel='stylesheet' type='text/css' media='all' href='files/stacks_page_page12.css?rwcache=753644042' />
+        <script type='text/javascript' charset='utf-8' src='../../rw_common/plugins/stacks/jquery-2.2.4.min.js?rwcache=753644042'></script>
         
         
         
-<script type="text/javascript" charset="utf-8" src="../../rw_common/plugins/stacks/jscookie.min.js?rwcache=753559612"></script>		
-		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page12.js?rwcache=753559612'></script>
+<script type="text/javascript" charset="utf-8" src="../../rw_common/plugins/stacks/jscookie.min.js?rwcache=753644042"></script>		
+		<script type='text/javascript' charset='utf-8' src='files/stacks_page_page12.js?rwcache=753644042'></script>
 		
 
 	
@@ -48,7 +48,7 @@ session_start();
     <div class="figure_cropping">
       <div class="figure-container parallax">
         <div id="theme_input"></div>
-        <img src="../../rw_common/images/Programming.png" alt="Banner">
+        <img src="../../rw_common/images/primer-ds-logo.png" alt="Banner">
       </div>
     </div><!-- Figure Crop -->
     <figure class="theme max_width_wrap">
@@ -64,7 +64,7 @@ session_start();
         <div class="float_right contact_info">
           <ul>
             <li class="special-li">
-              &copy; 2014-24 Birkbeck, University of London <a href="#" class="B3450A67-2554-4BE6-8C7F-4CBB33727377">Contact Me (Keith Mannock)</a><script type="text/javascript">(function(){ var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":k.";var _rwObsfuscatedHref3 = "man";var _rwObsfuscatedHref4 = "noc";var _rwObsfuscatedHref5 = "k@b";var _rwObsfuscatedHref6 = "bk.";var _rwObsfuscatedHref7 = "ac.";var _rwObsfuscatedHref8 = "uk";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; Array.from(document.getElementsByClassName("B3450A67-2554-4BE6-8C7F-4CBB33727377")).forEach(function(x){x.href = _rwObsfuscatedHref});})()</script>
+              &copy; 2014-24 Birkbeck, University of London <a href="#" class="6DFD9C57-B990-470C-AED5-9FBA4C0CBD56">Contact Me (Keith Mannock)</a><script type="text/javascript">(function(){ var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":k.";var _rwObsfuscatedHref3 = "man";var _rwObsfuscatedHref4 = "noc";var _rwObsfuscatedHref5 = "k@b";var _rwObsfuscatedHref6 = "bk.";var _rwObsfuscatedHref7 = "ac.";var _rwObsfuscatedHref8 = "uk";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; Array.from(document.getElementsByClassName("6DFD9C57-B990-470C-AED5-9FBA4C0CBD56")).forEach(function(x){x.href = _rwObsfuscatedHref});})()</script>
               <a class="cartloom-viewcart">
                 <span class="cartloom-cart-count">0</span>
                 <span class="social-bag"></span>
@@ -143,7 +143,7 @@ if ($_SESSION[$cookie] === false) {
     // Support PWA if it exists on the page
     echo $pageSpeedHeader??""; ?>
 
-	<link rel="stylesheet" href="files/stacks_in_18_2_pagesafe.css?rwcache=753559612" />
+	<link rel="stylesheet" href="files/stacks_in_18_2_pagesafe.css?rwcache=753644042" />
 </head>
 <body class="color linear  ">
 
@@ -188,7 +188,7 @@ if ($_SESSION[$cookie] === false) {
 </footer>
 
 
-	<script src="files/stacks_in_18_2_pagesafe.js?rwcache=753559612"></script>
+	<script src="files/stacks_in_18_2_pagesafe.js?rwcache=753644042"></script>
 <?php
 	if (class_exists('\TotalCMS\ReplaceText')) {
 		$totalob = ob_get_clean();
@@ -215,7 +215,7 @@ if ($_SESSION[$cookie] === false) {
     </div>
   </main>
   <footer class="theme max_width_wrap_content cf">
-    <div class="float_left">&copy; 2014-24 Birkbeck, University of London <a href="#" class="B3450A67-2554-4BE6-8C7F-4CBB33727377">Contact Me (Keith Mannock)</a><script type="text/javascript">(function(){ var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":k.";var _rwObsfuscatedHref3 = "man";var _rwObsfuscatedHref4 = "noc";var _rwObsfuscatedHref5 = "k@b";var _rwObsfuscatedHref6 = "bk.";var _rwObsfuscatedHref7 = "ac.";var _rwObsfuscatedHref8 = "uk";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; Array.from(document.getElementsByClassName("B3450A67-2554-4BE6-8C7F-4CBB33727377")).forEach(function(x){x.href = _rwObsfuscatedHref});})()</script></div>
+    <div class="float_left">&copy; 2014-24 Birkbeck, University of London <a href="#" class="6DFD9C57-B990-470C-AED5-9FBA4C0CBD56">Contact Me (Keith Mannock)</a><script type="text/javascript">(function(){ var _rwObsfuscatedHref0 = "mai";var _rwObsfuscatedHref1 = "lto";var _rwObsfuscatedHref2 = ":k.";var _rwObsfuscatedHref3 = "man";var _rwObsfuscatedHref4 = "noc";var _rwObsfuscatedHref5 = "k@b";var _rwObsfuscatedHref6 = "bk.";var _rwObsfuscatedHref7 = "ac.";var _rwObsfuscatedHref8 = "uk";var _rwObsfuscatedHref = _rwObsfuscatedHref0+_rwObsfuscatedHref1+_rwObsfuscatedHref2+_rwObsfuscatedHref3+_rwObsfuscatedHref4+_rwObsfuscatedHref5+_rwObsfuscatedHref6+_rwObsfuscatedHref7+_rwObsfuscatedHref8; Array.from(document.getElementsByClassName("6DFD9C57-B990-470C-AED5-9FBA4C0CBD56")).forEach(function(x){x.href = _rwObsfuscatedHref});})()</script></div>
     <div class="float_right"></div>
   </footer>
   <div id="config_theme"></div>
