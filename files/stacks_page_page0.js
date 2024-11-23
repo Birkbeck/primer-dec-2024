@@ -6,15 +6,11 @@ stacks.stacks_in_87 = {};
 stacks.stacks_in_87 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
 return stack;})(stacks.stacks_in_87);
+stacks.stacks_in_162 = {};
+stacks.stacks_in_162 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_162);
 stacks.stacks_in_92 = {};
 stacks.stacks_in_92 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
 return stack;})(stacks.stacks_in_92);
-stacks.stacks_in_91 = {};
-stacks.stacks_in_91 = (function(stack) {
-var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
-return stack;})(stacks.stacks_in_91);
-stacks.stacks_in_55 = {};
-stacks.stacks_in_55 = (function(stack) {
-var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
-return stack;})(stacks.stacks_in_55);
