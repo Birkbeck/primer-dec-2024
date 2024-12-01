@@ -2,211 +2,7 @@
 #stacks_out_29_2 {
 	width: 1280px;
 }
-/* Start Responsive Shim stack CSS code */.stacks_in_87shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//*START CSS ZEBRATABLES*/
-#stacks_in_97 .tablecontainer
-{ 
-overflow-y: auto;
-overflow-x: auto;
-/*customcss;*/
-}
-
-
-#stacks_in_97 .tablestack
-{
-	display: table; margin-left: auto; margin-right: auto;
-	font-family: Inherit;
-	width: 100%;
-	border: 0px solid rgba(165, 166, 164, 1.00);
-	border-collapse: collapse;
-	border-spacing: 0px;
-	text-align: center;	
-
-	background-color: rgba(235, 234, 233, 1.00);
-
-margin-bottom:0px !important;
-/*customcss;*/
-}
-#stacks_in_97 .tablestack td
-{
-	text-align: center;	
-	font-size: 12; font-weight: normal; font-style: normal;
-	border: 1px solid rgba(204, 204, 204, 1.00);
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px; 
-	padding-right: 10px;
-	border-collapse: collapse !important;
-
-
-
-
-vertical-align: Top;
-/*customcss;*/
-}
-/*ZEBRA-OPTIONS*/
-#stacks_in_97 .tablestack td:nth-of-type(even) /*COLUMNS*/
-{
-
-}
-#stacks_in_97 .tablestack tbody tr:nth-of-type(even) /*ROWS*/
-{
-
-	color: rgba(59, 60, 59, 1.00);
-	background-color: rgba(165, 166, 164, 1.00);
-
-}
-#stacks_in_97 .tablestack td:nth-child(1) /*HILITECOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(2) /*HILITECOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(3) /*HILITECOLUMN*/ 
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(1) /*WIDTHCOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(2) /*WIDTHCOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(3) /*WIDTHCOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(1) /*TXTALIGNCOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(2) /*TXTALIGNCOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(3) /*TXTALIGNCOLUMN*/
-{
-
-}
-#stacks_in_97 .tablestack tr:nth-child(1) /*HILITEROW*/
-{
-
-}
-#stacks_in_97 .tablestack tr:nth-child(2) /*HILITEROW*/
-{
-
-}
-#stacks_in_97 .tablestack tr:nth-child(3) /*HILITEROW*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(1) /*NOWRAP*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(2) /*NOWRAP*/
-{
-
-}
-#stacks_in_97 .tablestack td:nth-child(3) /*NOWRAP*/
-{
-
-}
-#stacks_in_97 .tablestack th
-{
-	font-size: 12; font-weight: normal; font-style: normal;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px; 
-	padding-right: 10px;
-	border: 1px solid rgba(165, 166, 164, 1.00);
-	text-align: center;
-
-	background-color: rgba(99, 100, 99, 1.00) !important;
-
-
-
-	color: rgba(191, 192, 190, 1.00) !important;
-
-
-
-
-vertical-align: Middle;
-/*customcss;*/
-}
-
-
-
-/*RESPONSIVENESS*/
-
-@media screen and (max-width : 400px)  
-{
-#stacks_in_97 .tablestack th:nth-child(1)
-{
-
-	visibility: hidden;
-	display: none;
-	width: 0px;
-	border-collapse: collapse;
-
-}
-#stacks_in_97 .tablestack td:nth-child(1)
-{
-
-	visibility: hidden;
-	display: none;
-	width: 0px;
-	border-collapse: collapse;
-
-}
-#stacks_in_97 .tablestack th:nth-child(2)
-{
-
-	visibility: hidden;
-	display: none;
-	width: 0px;
-	border-collapse: collapse;
-
-}
-#stacks_in_97 .tablestack td:nth-child(2)
-{
-
-	visibility: hidden;
-	display: none;
-	width: 0px;
-	border-collapse: collapse;
-
-}
-#stacks_in_97 .tablestack th:nth-child(3)
-{
-
-	visibility: hidden;
-	display: none;
-	width: 0px;
-	border-collapse: collapse;
-
-}
-#stacks_in_97 .tablestack td:nth-child(3)
-{
-
-	visibility: hidden;
-	display: none;
-	width: 0px;
-	border-collapse: collapse;
-
-}
-#stacks_in_97 .tablestack
-{
-
-	display: table; margin-left: auto; margin-right: auto;
-	width: 100%;
-
-}}
-
-/*END CSS ZEBRATABLES*//* Start Responsive Shim stack CSS code */.stacks_in_162shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Start Responsive Shim stack CSS code */.stacks_in_92shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
+/* Start Responsive Shim stack CSS code */.stacks_in_87shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Start Responsive Shim stack CSS code */.stacks_in_162shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code *//* Start Responsive Shim stack CSS code */.stacks_in_92shim{	padding-top: 3%;}/* End Responsive Shim stack CSS code */
 /* START QUARENTINE CSS */
 
 
