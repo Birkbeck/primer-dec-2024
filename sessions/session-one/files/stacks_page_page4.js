@@ -6,10 +6,30 @@ stacks.stacks_in_22 = {};
 stacks.stacks_in_22 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
 return stack;})(stacks.stacks_in_22);
+stacks.stacks_in_94 = {};
+stacks.stacks_in_94 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_94);
 stacks.stacks_in_36 = {};
 stacks.stacks_in_36 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
 return stack;})(stacks.stacks_in_36);
+stacks.stacks_in_98 = {};
+stacks.stacks_in_98 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_98);
+stacks.stacks_in_99 = {};
+stacks.stacks_in_99 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_99);
+stacks.stacks_in_101 = {};
+stacks.stacks_in_101 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_101);
+stacks.stacks_in_95 = {};
+stacks.stacks_in_95 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_95);
 stacks.stacks_in_57 = {};
 stacks.stacks_in_57 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
