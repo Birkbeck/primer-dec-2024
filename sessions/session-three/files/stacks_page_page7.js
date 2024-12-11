@@ -6,3 +6,11 @@ stacks.stacks_in_17 = {};
 stacks.stacks_in_17 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
 return stack;})(stacks.stacks_in_17);
+stacks.stacks_in_47 = {};
+stacks.stacks_in_47 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_47);
+stacks.stacks_in_18 = {};
+stacks.stacks_in_18 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_18);
