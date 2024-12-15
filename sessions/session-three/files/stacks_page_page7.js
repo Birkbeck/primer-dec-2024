@@ -14,10 +14,14 @@ stacks.stacks_in_71 = {};
 stacks.stacks_in_71 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
 return stack;})(stacks.stacks_in_71);
-stacks.stacks_in_70 = {};
-stacks.stacks_in_70 = (function(stack) {
+stacks.stacks_in_86 = {};
+stacks.stacks_in_86 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
-return stack;})(stacks.stacks_in_70);
+return stack;})(stacks.stacks_in_86);
+stacks.stacks_in_77 = {};
+stacks.stacks_in_77 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_77);
 stacks.stacks_in_18 = {};
 stacks.stacks_in_18 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
