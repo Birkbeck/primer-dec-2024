@@ -33,6 +33,10 @@ stacks.stacks_in_43 = {};
 stacks.stacks_in_43 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
 return stack;})(stacks.stacks_in_43);
+stacks.stacks_in_96 = {};
+stacks.stacks_in_96 = (function(stack) {
+var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
+return stack;})(stacks.stacks_in_96);
 stacks.stacks_in_87 = {};
 stacks.stacks_in_87 = (function(stack) {
 var jQuery = stacks.jQuery;var $ = jQuery;// Start Responsive Shim stack Javascript code$(document).ready(function() {});// End Responsive Shim stack Javascript code
